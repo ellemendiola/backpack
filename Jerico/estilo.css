@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+}
+
+body{
+background: purple;
+color: white;
+font-family: 'Nunito', sans-serif;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+}
+h1 strong{
+    color: #2c2e77;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+.padre{
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+
+.hijo{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(50, 91, 205);
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aplicar{
+    height: 500px;
+    background:rgb(33, 17, 94);
+    display: flex;
+    color: white;
+}
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.aplicar-detalles img{
+    height: 60%; 
+}
+
+.container1{
+display: flex;
+background: rgb(18, 1, 85);
+text-align: center;
+padding: 20px;
+justify-content: space-around;
+}
+
+.container2 {
+background: #ffffff;
+color: #000000;
+text-align: center;
+}
+
+.col1-container1{
+width: 400px;
+}
+
+.col2-container1{
+width: 200px;
+}
+
+.col3-container1{
+width: 300px;
+}
+
+.header{
+    background:rgb(33, 17, 94) ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.header li{
+height: inherit;
+}
+
+.row1-contacto{
+    display: flex;
+    margin: 10px 10px;
+}
+
+.row2-contacto{
+    display: flex;
+ margin: 10px 10px;
+}
+
+.row2-contacto p{
+    padding-left: 10px;
+}
+
+
+.row1-contacto p{
+    padding-left: 10px;
+}
+
+.row1-contacto img{
+    width: 35px;
+    height: 25px;
+}
+
+.row2-contacto img{
+    width: 35px;
+}
+
+.row1-redes img{
+    width: 35px;
+    height: 35px;
+}
+
+.header a{
+color: white;
+text-decoration: none;
+height: inherit;
+display: flex;
+align-items: center;
+padding: 0px 10px;
+}
+
+.logo img{
+width: 100px;
+
+}
+
+.menu{
+    height: inherit;
+}
+
+.principal {
+    background: rgb(34, 0, 73);
+    background-image: url('img/Fondo azul.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.principal img{
+    width: 300px;
+}
+
+
+.somos {
+    background: rgb(33, 17, 94);
+    text-align:center;
+    padding: 50px;
+    font-size: 20px;
+}
+.somos h2{
+    color: #6978cf;
+    margin-bottom: 10px;
+}
+
+.somos img{
+width: 600px;
+
+}
+
+.somos p{
+    margin-bottom: 20px;
+}
+
+.INOXIDABLE {
+    background: yellow;
+    text-align:left;
+    padding: 25px 100px 200px 50px;
+
+}
+.aplicar-detalles2{
+    background: rgb(179, 208, 235);
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: left;
+    height: 90%;
+   
+}
+.col2-container1 {
+height: 20px;
+}
+
+
+}
